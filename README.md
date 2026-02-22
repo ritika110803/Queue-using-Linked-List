@@ -58,6 +58,7 @@ int isEmpty() {
 // Enqueue operation
 
 void enqueue(int value) {
+    
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
 
     if (newNode == NULL) {
